@@ -4,7 +4,9 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <body>
+      <title>CoreLanding</title>
+      <link rel="shortcut icon" type="imagex/png" href="./images/2.png" />
+      <body style={{ backgroundColor: '#1C1C1C' }}>
         <Main />
         <NextScript />
       </body>
